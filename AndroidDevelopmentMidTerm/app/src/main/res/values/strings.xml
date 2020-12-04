@@ -1,4 +1,5 @@
 <resources>
     <string name="array">Android Development Mid Term</string>
     <string name="app_name">app_name</string>
+    <string name="Add_Friends">Add Friends</string>
 </resources>
