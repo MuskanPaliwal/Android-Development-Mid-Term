@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list">
+        <item>Hema</item>
+        <item>Amit</item>
+        <item>Ruchi</item>
+        <item>Divya</item>
+        <item>Dipisha</item>
+    </string-array>
+</resources>
