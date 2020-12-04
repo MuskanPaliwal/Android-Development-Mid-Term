@@ -9,11 +9,14 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class MainActivity extends AppCompatActivity
 {
     private ListView listview;
     private String[] list;
     int i;
+    FloatingActionButton mAddFab;
     @Override
     protected void onCreate(Bundle savedInstanceState)
 
@@ -23,7 +26,7 @@ public class MainActivity extends AppCompatActivity
 
         listview=(ListView)findViewById(R.id.lv);
         list = getResources().getStringArray(R.array.list);
-
+        mAddFab = findViewById(R.id.add_fab);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,list);
         listview.setAdapter(adapter);
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener()
